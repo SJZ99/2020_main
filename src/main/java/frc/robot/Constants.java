@@ -31,6 +31,10 @@ public final class Constants {
         public static final boolean isLeftMotorInvert = false;
         public static final boolean isRightPhaseInvert = true;
         public static final boolean isLeftPhaseInvert = false;
+        /**
+         * distance per pulse
+         */
+        public static final double distantsPerPulse = 0.1524 * Math.PI / 2048 / 9.7;
          
     }
     public final class TrajectoryFoller{
