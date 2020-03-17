@@ -16,4 +16,37 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+    public final class MotorConstants{
+        /**
+         * motor constants
+         */
+        public static final int krightmotor = 18;
+        public static final int krightmotorS = 20;
+        public static final int kleftmotor = 19;
+        public static final int kleftmotorS = 21;
+        /**
+         * Invert or not
+         */
+        public static final boolean isRightMotorInvert = true;
+        public static final boolean isLeftMotorInvert = false;
+        public static final boolean isRightPhaseInvert = true;
+        public static final boolean isLeftPhaseInvert = false;
+         
+    }
+    public final class TrajectoryFoller{
+        /**
+         * PID constants
+         */
+        public static final double kS = 0.143;
+        public static final double kV = 2.23;
+        public static final double kA = 0.372;
+        public static final double kP = 1.5;
+        public static final double kI = 0;
+        public static final double kD = 0;
+        /**
+         * wheel constants
+         */
+        public static final double wheelDiamete = 0.1524;
+        public static final double wheelPitch = 0.7407;
+    } 
 }
